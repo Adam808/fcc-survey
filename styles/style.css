@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#title {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  p#description {
+    text-align: center;
+  }
+  
+  div#container {
+    width: 60%;
+    margin: auto;
+    background-color: #64b5f6;
+    padding: 2% 0 2% 0;
+  }
+  
+  form#survey-form {
+    margin-left: 10%;
+  }
+  
+  form#survey-form input {
+    color: gray;
+  }
+  
+  div#vert-align {
+    display: inline-grid;
+  }
+  
+  .submit-button {
+    display: flex;
+    justify-content: center;
+  }

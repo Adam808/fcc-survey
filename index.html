@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Survey</title>
+</head>
+<body>
+    <div id="container">
+    <h1 id="title">Survey</h1>
+    <p id="description">Please fill out this short survey to let us know more about you.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <label for="number" id="number-label">Age:</label><br>
+        <input type="number" id="number" min="1" max="100" placeholder="Age"><br><br>
+        <label for="dropdown">What's your favorite season?</label><br>
+        <select type="dropdown">
+        <option value="spring">Spring</option>
+        <option value="summer">Summer</option>
+        <option value="fall">Fall</option>
+        <option value="winter">Winter</option>
+        </select><br><br>
+        <div id="vert-align">
+        <p>Where do you live?</p>
+        <label>
+            <input type="radio" value="north america" name="continent">North America
+        </label>
+        <label>
+            <input type="radio" value="south america" name="continent">South America
+        </label>
+        <label>
+            <input type="radio" value="europe" name="continent">Europe
+        </label>
+        <label>
+            <input type="radio" value="asia" name="continent">Asia
+        </label>
+        <label>
+            <input type="radio" value="africa" name="continent">Africa
+        </label>
+        <label>
+            <input type="radio" value="australia" name="continent">Australia
+        </label>
+        <label>
+            <input type="radio" value="antarctica" name="continent">Antarctica
+        </label><br>
+        <p>Do you have any pets?</p>
+        <label>
+            <input type="checkbox" value="dog">Dog
+        </label>
+        <label>
+            <input type="checkbox" value="cat">Cat
+        </label><label>
+            <input type="checkbox" value="bird">Bird
+        </label><label>
+            <input type="checkbox" value="rodent">Rodent
+        </label>
+        <label>
+            <input type="checkbox" value="fish">Fish
+        </label><br>
+        <textarea rows="4" cols="60" name="comment" placeholder="Enter comments here..."></textarea><br>
+        </div>
+    </form>
+    <div class="submit-button">
+        <button type="submit" id="submit" form="survey-form">Submit</button>
+    </div>
+    </div>
+</body>
